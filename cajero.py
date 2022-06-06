@@ -1,3 +1,5 @@
+#proyecto-GabrielCumare
+#ejercicio 3 del proyecto 
 """ programa que simula un cajero automatico que solicita al usuario el monto en dolares que desea retirar con la cantidad minima de billetes """
 try:
     money = int(input("introduzca el monto que desea retirar: "))
