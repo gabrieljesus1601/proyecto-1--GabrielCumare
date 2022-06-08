@@ -2,7 +2,7 @@
 #ejercicio 2 del proyecto de programacion
 """programa que calcula la media, la mediana, el rango y la desviacion estandar de minimo 20 datos ingresados por el usuario, mostrando en pantalla la data introducida """
 import math #libreria
-cantidad = int(input("Ingrese la cantidad de datos a calcular (min 20 datos): "))
+cantidad = int(input("Ingrese la cantidad de datos a calcular (minimo 20 datos): "))
 while(cantidad<20):
     cantidad=input("La cantidad mimina es 20 datos. Ingrese la cantidad de datos a calcular: ")
     cantidad= int(cantidad)
