@@ -1,5 +1,6 @@
 # proyecto-GabrielCumare
 #ejercio 1 proyecto programacion
+"""programa que registra variaciones gravimetricas diarias en tuplas para valores maximos y minimos introducidos por el usuario, indicando cuantos dias duro la salida, cantidad de errores y la variacion media minima y maxima   """
 
 #Creo una función que reconoce los máximos y mínimos.
 def checkTuple(temp):
