@@ -1,5 +1,6 @@
 # proyecto-GabrielCumare
 #problema 4 proyecto programacion
+"""programaque dibuja la bandera de inglaterra utilizando con una longitud y altura introducida por el usuario, utilizando los caracteres + y 0 para dibujar dicha bandera """
 from numpy import array #libreria numpy
 #definiendo la funcion
 def dim():
