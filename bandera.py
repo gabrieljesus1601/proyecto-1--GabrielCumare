@@ -1,13 +1,14 @@
 # proyecto-GabrielCumare
 #problema 4 proyecto programacion
 """programa que dibuja la bandera de inglaterra con valores de longitud y altura introducidos por el usuario(estos valores deben ser impares mayores a 2 y menores a 20), utilizando los caracteres + y 0 para dibujar dicha bandera """
+
 from numpy import array #libreria numpy
 #definiendo la funcion
 def dim():
-"""regresa dos valores validados, largo y altura"""
+	"""regresa dos valores validados, largo y altura"""
 
 	datos = [] # creo ua matriz vacia para los 2 datos
-  # ciclo que valida los datos
+ 	 # ciclo que valida los datos
 	while True:
 		longitud = input(" ingrese el largo de la bandera: ")
 		try:
