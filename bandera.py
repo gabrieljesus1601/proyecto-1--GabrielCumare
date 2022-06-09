@@ -38,7 +38,7 @@ def dim():
 				
 		except:
 			print("debe ingresar valores numericos enteros positivos")
-		return(datos)
+	return(datos)
 def bandera(largo_2,altura_2):
 	"""regresa la bandera de inglaterra dibujada en el cmd """
 	flag = [] #crear una matriz vacia para la bandera
@@ -46,7 +46,7 @@ def bandera(largo_2,altura_2):
 	altura_mitad = (altura_2 + 1)/2
 	for i in range(altura_2):
 		aux_1 = [] #lista auxiliar para las columnas de la matriz
-		for j in range(largo):
+		for j in range(largo_2):
 			if (j == largo_mitad - 1) or (i == altura_mitad - 1):
 				aux_1.append("+")
 			else:
